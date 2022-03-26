@@ -1,5 +1,14 @@
 # Руководство по git
 
+0. Чтобы установить git на Windows, надо запустить у себя на компьютере следующий exe-файл : https://github.com/git-for-windows/git/releases/download/v2.35.1.windows.2/Git-2.35.1.2-64-bit.exe .
+
+После установки следует представиться, ввести свои имя и адресс электронной почты (не обязательно настоящие):
+
+```
+git config --global user.name "John Doe"
+git config --global user.email johndoe@example.com
+```
+
 1. Сохраняете проект себе на компьютер (знаки "<" и ">" вводить не нужно, ссылка на репозиторий нашего проекта - https://github.com/rianriant/individual_task_2.git ):\
    `git clone <project http-link>`
    ***
